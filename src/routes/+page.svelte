@@ -7,16 +7,49 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Efficiency at scale, without the extra overhead"
+  subtitle="Transform high-volume operations with a fully integrated restaurant system—built for consistency, speed, and higher margins across every location. No added headcount required."
+  customers={[
+    {
+      name: "Alicia Nguyen",
+      position: "VP operations, FreshBowl",
+      imageSrc: "/generated/image-a-confident-asian-woman-in-business-atti.webp",
+    },
+    {
+      name: "Marcus Lewis",
+      position: "Director of tech, SpeedEats",
+      imageSrc: "/generated/image-a-poised-black-man-in-a-suit-serving-as-.webp",
+    },
+    {
+      name: "Priya Patel",
+      position: "COO, Urban Bites",
+      imageSrc: "/generated/image-a-professional-south-asian-woman-the-res.webp",
+    },
+    {
+      name: "Carlos Romero",
+      position: "Director of strategy, GoQuick",
+      imageSrc: "/generated/image-a-latino-man-in-a-casual-suit-serving-as.webp",
+    },
+    {
+      name: "Emma Johansson",
+      position: "Head of experience, NordicBite",
+      imageSrc: "/generated/image-a-scandinavian-woman-with-a-crisp-busine.webp"
+    },
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/mcdonalds.com',
+		'https://logo.clearbit.com/yum.com',
+		'https://logo.clearbit.com/arbys.com'
+	]}
+/>
 
 <Summary
 	generating
