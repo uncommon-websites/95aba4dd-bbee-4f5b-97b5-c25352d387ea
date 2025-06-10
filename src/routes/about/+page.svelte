@@ -10,34 +10,45 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: 'Built from scratch',
+    description: 'We engineer every component ourselves—hardware, firmware, software, and AI—for next-level performance.'
+  },
+  {
+    title: 'Fast iterations, real results',
+    description: 'We move quickly, learn by doing, and improve every system through rapid cycles in real QSRs.'
+  },
+  {
+    title: 'Mission over ego',
+    description: 'Impact beats consensus. Everyone is here to transform an industry, not to coast.'
+  },
+  {
+    title: 'High autonomy, high accountability',
+    description: 'Engineers and operators own big outcomes, not just tickets.'
+  },
+  {
+    title: 'No legacy thinking',
+    description: 'We refuse B.S. and legacy workarounds in favor of reinvention and simplicity.'
+  },
+  {
+    title: 'London roots, global scale',
+    description: 'A hands-on, close-knit team with world ambitions and operational rigor.'
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  title="Automating enterprise QSR operations"
+  subtitle="AI and robotics built from the ground up to drive massive efficiency and margin growth"
+  imageSrc="/generated/image-a-diverse-team-of-professionals-in-a-mod.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Josef Chen started KAIKAKU after seeing the same story repeat itself across the quick-service restaurant industry: constant burnout, high turnover, razor-thin profits. While tech trickled into every other sector, fast food was still patching over problems instead of rethinking how operations should work. Josef founded KAIKAKU not to tweak the system—but to rebuild it entirely.",
+		"Inspired by the engineering philosophy at SpaceX, KAIKAKU builds every part of its operating system from the ground up: robotics, software, and intelligence. In early trials, the team worked side-by-side with real kitchens, treating each location like a living lab. The result is a vertically integrated system that performs fast, adapts to any format, and scales with minimal labor costs. This isn’t just automation bolted onto old processes—it’s a rethink of the entire kitchen budget.",
+		"Today, KAIKAKU is building for the next era of restaurants—where operations are intelligent, labor is leveraged (not overworked), and every location runs like your top performer. We believe automation’s not about replacing people. It’s about letting them do their best work—because everything else runs by itself."
 	]}
 />
 
@@ -46,32 +57,17 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our founder"
+  subtitle="Tech-led innovation, built in-house."
+  stakeholders={[
+    {
+      name: "Josef Chen",
+      position: "Founder & CEO",
+      bio: "Josef Chen is founder and CEO of KAIKAKU, engineering the next-generation restaurant operating system with a tech-first, vertically integrated approach.",
+      image: "/generated/image-a-professional-headshot-of-a-confident-e.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +92,11 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Ready to lead the automation era?"
+  subtitle="See KAIKAKU in action"
+  description="If you’re building the future of QSR or want to help transform an industry from the inside, let’s connect. High bar. Big impact. No tourists."
+  callsToAction={[
+    { href: '/contact', label: 'Book a demo', variant: 'primary' },
+    { href: '/careers', label: 'Join the team', variant: 'secondary' }
+  ]}
 />

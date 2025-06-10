@@ -35,139 +35,151 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
+		title = "Enterprise-grade pricing for QSR transformation",
+		subtitle = "Plans for pilot, standard, and enterprise-wide rollouts",
 		tierNames = ["Starter", "Pro", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "Autonomous bowl assembly (FUSICON)",
+			tiers: {
+				Pilot: true,
+				Standard: true,
+				Enterprise: true
 			}
-		],
+		},
+		{
+			name: "Core restaurant OS modules (ordering, scheduling, inventory)",
+			tiers: {
+				Pilot: true,
+				Standard: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "AI-powered operations & analytics",
+			tiers: {
+				Pilot: false,
+				Standard: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Multi-location management",
+			tiers: {
+				Pilot: "limited",
+				Standard: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Custom integrations & hardware bundles",
+			tiers: {
+				Pilot: false,
+				Standard: "optional",
+				Enterprise: "custom"
+			}
+		},
+		{
+			name: "Custom workflow automations",
+			tiers: {
+				Pilot: false,
+				Standard: "optional",
+				Enterprise: "custom"
+			}
+		},
+		{
+			name: "Dedicated onboarding team",
+			tiers: {
+				Pilot: "limited",
+				Standard: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "24/7 premium support",
+			tiers: {
+				Pilot: false,
+				Standard: "optional",
+				Enterprise: true
+			}
+		},
+		{
+			name: "Advanced security & compliance",
+			tiers: {
+				Pilot: false,
+				Standard: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "SLA / uptime guarantees",
+			tiers: {
+				Pilot: false,
+				Standard: "optional",
+				Enterprise: true
+			}
+		}
+	],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Pilot",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For initial location pilots or proof-of-concept deployments. Deploy automation, train staff, and evaluate ROI in one or a few stores.",
+			features: [
+				"FUSICON | Autonomous bowl assembly included",
+				"Core restaurant OS modules included",
+				"Limited multi-location features",
+				"Dedicated onboarding (limited)",
+				"Contact support for pricing"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
 			}
-		]
+		},
+		{
+			name: "Standard",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For chains rolling out KAIKAKU across multiple locations. Scalable system, analytics, integrations, and full onboarding support.",
+			features: [
+				"All Pilot features",
+				"AI-powered operations & analytics",
+				"Full multi-location management",
+				"Optional custom integrations",
+				"Dedicated onboarding team",
+				"Optional 24/7 support and SLA",
+				"Enterprise-level security & compliance",
+				"Contact support for pricing"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For large QSR networks seeking fully tailored solutions (regional, national, global). Every component and process is customized to your needs.",
+			features: [
+				"All Standard features",
+				"Bespoke custom integrations & hardware bundles",
+				"Dedicated onboarding & change management for your org",
+				"24/7 premium support",
+				"Custom workflow automations",
+				"Enterprise security, compliance, and auditability",
+				"Guaranteed SLA & uptime included",
+				"Contact support for pricing"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

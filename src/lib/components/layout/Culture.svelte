@@ -10,7 +10,32 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: 'Built from scratch',
+    description: 'We engineer every component ourselves—hardware, firmware, software, and AI—for next-level performance.'
+  },
+  {
+    title: 'Fast iterations, real results',
+    description: 'We move quickly, learn by doing, and improve every system through rapid cycles in real QSRs.'
+  },
+  {
+    title: 'Mission over ego',
+    description: 'Impact beats consensus. Everyone is here to transform an industry, not to coast.'
+  },
+  {
+    title: 'High autonomy, high accountability',
+    description: 'Engineers and operators own big outcomes, not just tickets.'
+  },
+  {
+    title: 'No legacy thinking',
+    description: 'We refuse B.S. and legacy workarounds in favor of reinvention and simplicity.'
+  },
+  {
+    title: 'London roots, global scale',
+    description: 'A hands-on, close-knit team with world ambitions and operational rigor.'
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 

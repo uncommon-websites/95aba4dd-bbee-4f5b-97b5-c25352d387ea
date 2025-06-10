@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+	{
+		title: "Tackle trillion-dollar challenges",
+		description: "Define the next-generation of restaurant automation through robotics and AI—impacting a $1T industry.",
+		icon: IconBriefcase
+	},
+	{
+		title: "SpaceX-style engineering",
+		description: "Work in a fast-moving, vertically integrated team where learning and experimentation happen daily.",
+		icon: IconUsers
+	},
+	{
+		title: "Rapid ownership and growth",
+		description: "Ship real-world products quickly, gain responsibility, and shape both our company and your own career.",
+		icon: IconHeart
+	}
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,80 +121,87 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Kenji Watanabe",
+    position: "Senior Mechanical Engineer",
+    company: "Robotics Team",
+    quote:
+      "KAIKAKU is where innovation is a daily reality. The collaborative spirit and deep respect for new ideas make it easy to feel at home—everyone truly wants you to succeed.",
+    image: "/generated/image-a-30-something-asian-man-with-a-friendly.webp"
+  },
+  {
+    name: "Alyssa Thompson",
+    position: "AI Software Developer",
+    company: "Intelligence Platform",
+    quote:
+      "I joined to work on real-world AI, and stayed because every project challenges me to learn and grow. My voice is heard no matter my title.",
+    image: "/generated/image-a-joyful-black-woman-in-her-late-20s-wea.webp"
+  },
+  {
+    name: "Sophie Miller",
+    position: "Operations Coordinator",
+    company: "Operations Team",
+    quote:
+      "From my first day, I felt welcomed and supported. There are always new responsibilities to take on and opportunities to make an impact.",
+    image: "/generated/image-a-friendly-young-white-woman-in-her-earl.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+	{
+		step: 1,
+		title: "Apply online",
+		description: "Send us your resume and a few bullets on what you'd build or solve at KAIKAKU."
+	},
+	{
+		step: 2,
+		title: "Team chat",
+		description: "A quick intro call with leads and engineers to see if there’s a mutual fit."
+	},
+	{
+		step: 3,
+		title: "Challenge",
+		description: "Tackle a short technical, product, or problem-solving task—with guidance and open communication."
+	},
+	{
+		step: 4,
+		title: "Final interview & decision",
+		description: "Meet the founders, get transparent feedback, and receive a decision—usually within 10 days."
+	}
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+	{
+		icon: IconHeart,
+		title: "Always in beta",
+		description: "We rapidly build, test, and iterate in real kitchens—failure is how we find what works."
+	},
+	{
+		icon: IconUsers,
+		title: "Engineered for outcomes",
+		description: "We succeed by delivering real business and customer results—not surface metrics."
+	},
+	{
+		icon: IconGlobe,
+		title: "No passengers, just builders",
+		description: "Everyone here creates and owns their work, with autonomy and an end-to-end mindset."
+	}
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+
+title="Invent the future of restaurants"
+subtitle="Shape what's next with robotics and AI"
+imageSrc="/generated/image-a-diverse-group-of-professionals-engaged.webp"
 />
+
+<!--
+At KAIKAKU, engineers, operators, and designers come together to transform the $1 trillion QSR industry—powered by robotics, AI, and vertical integration from the ground up. Inspired by a SpaceX-style approach to engineering, we move fast, design from first principles, and build in a tight loop with real operations. If you want impact, growth, and a team that's all in—this is where it starts.
+-->
+
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
